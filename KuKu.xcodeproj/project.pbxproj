@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20274E1228AD143C004E2D42 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20274E1128AD143C004E2D42 /* QuestionsViewController.swift */; };
 		2039A39028AA2D98004EEED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039A38F28AA2D98004EEED9 /* AppDelegate.swift */; };
 		2039A39228AA2D98004EEED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039A39128AA2D98004EEED9 /* SceneDelegate.swift */; };
 		2039A39428AA2D98004EEED9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039A39328AA2D98004EEED9 /* WelcomeViewController.swift */; };
@@ -22,10 +21,10 @@
 		20A3B33328DEB13800442F19 /* SeeRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A3B33228DEB13800442F19 /* SeeRecordsViewController.swift */; };
 		20A3B33828DED53000442F19 /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A3B33628DED53000442F19 /* RecordCell.swift */; };
 		20A3B33928DED53000442F19 /* RecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A3B33728DED53000442F19 /* RecordCell.xib */; };
+		20A3B33D28EDBCE700442F19 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A3B33C28EDBCE600442F19 /* QuestionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20274E1128AD143C004E2D42 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionsViewController.swift; path = KuKu/QuestionsViewController.swift; sourceTree = SOURCE_ROOT; };
 		2039A38C28AA2D98004EEED9 /* KuKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2039A38F28AA2D98004EEED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2039A39128AA2D98004EEED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		20A3B33228DEB13800442F19 /* SeeRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SeeRecordsViewController.swift; path = KuKu/Controllers/SeeRecordsViewController.swift; sourceTree = SOURCE_ROOT; };
 		20A3B33628DED53000442F19 /* RecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
 		20A3B33728DED53000442F19 /* RecordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordCell.xib; sourceTree = "<group>"; };
+		20A3B33C28EDBCE600442F19 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		2039A3A528AA33C3004EEED9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				20274E1128AD143C004E2D42 /* QuestionsViewController.swift */,
+				20A3B33C28EDBCE600442F19 /* QuestionsViewController.swift */,
 				2039A39328AA2D98004EEED9 /* WelcomeViewController.swift */,
 				2039A3A328AA3266004EEED9 /* QuestionsListViewController.swift */,
 				20A3B33228DEB13800442F19 /* SeeRecordsViewController.swift */,
@@ -192,12 +192,12 @@
 			files = (
 				2039A3A428AA3266004EEED9 /* QuestionsListViewController.swift in Sources */,
 				2039A39428AA2D98004EEED9 /* WelcomeViewController.swift in Sources */,
+				20A3B33D28EDBCE700442F19 /* QuestionsViewController.swift in Sources */,
 				20A3B32428B1C29B00442F19 /* QuizBrain.swift in Sources */,
 				2039A39028AA2D98004EEED9 /* AppDelegate.swift in Sources */,
 				20A3B32228B1B25700442F19 /* Question.swift in Sources */,
 				20A3B33828DED53000442F19 /* RecordCell.swift in Sources */,
 				20A3B33328DEB13800442F19 /* SeeRecordsViewController.swift in Sources */,
-				20274E1228AD143C004E2D42 /* QuestionsViewController.swift in Sources */,
 				2039A39228AA2D98004EEED9 /* SceneDelegate.swift in Sources */,
 				20A3B33128D85B8800442F19 /* Records.swift in Sources */,
 				20A3B32C28D5604300442F19 /* Constants.swift in Sources */,
