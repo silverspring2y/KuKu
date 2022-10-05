@@ -42,7 +42,7 @@ class WelcomeViewController: UIViewController {
         if quizBrain.quiz.count > 0 {
             self.performSegue(withIdentifier: K.reviewQuestionsSegue, sender: self)
         } else {
-            let alert: UIAlertController = UIAlertController(title: "アラート", message: "きろくがありません", preferredStyle:.alert)
+            let alert: UIAlertController = UIAlertController(title: "アラート", message: "もんだいがありません", preferredStyle:.alert)
             let ok = UIAlertAction(title: "OK", style: .default) { (action) in
                 self.dismiss(animated: true, completion: nil)
             }

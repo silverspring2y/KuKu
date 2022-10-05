@@ -402,18 +402,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eyJ-S5-GgZ">
-                                <rect key="frame" x="0.0" y="70" width="1024" height="1296"/>
+                                <rect key="frame" x="30" y="70" width="964" height="1336"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rxl-oF-Swn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="trailing" secondItem="rxl-oF-Swn" secondAttribute="trailing" id="1QW-Cu-qhh"/>
+                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="trailing" secondItem="rxl-oF-Swn" secondAttribute="trailing" constant="20" id="1QW-Cu-qhh"/>
                             <constraint firstItem="eyJ-S5-GgZ" firstAttribute="top" secondItem="rxl-oF-Swn" secondAttribute="top" id="9Ne-eF-eGc"/>
-                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="bottom" secondItem="rxl-oF-Swn" secondAttribute="bottom" id="Wzq-WX-D3x"/>
-                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="leading" secondItem="rxl-oF-Swn" secondAttribute="leading" id="ZkE-5n-gOp"/>
+                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="bottom" secondItem="rxl-oF-Swn" secondAttribute="bottom" constant="40" id="Wzq-WX-D3x"/>
+                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="leading" secondItem="rxl-oF-Swn" secondAttribute="leading" constant="20" id="ZkE-5n-gOp"/>
+                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="centerX" secondItem="Vkz-tj-v1H" secondAttribute="centerX" id="a52-3z-kE6"/>
+                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="leading" secondItem="rxl-oF-Swn" secondAttribute="leading" constant="30" id="ph0-h9-cFU"/>
+                            <constraint firstItem="rxl-oF-Swn" firstAttribute="trailing" secondItem="eyJ-S5-GgZ" secondAttribute="trailing" constant="30" id="pkh-ON-WpD"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="pkh-ON-WpD"/>
+                                <exclude reference="1QW-Cu-qhh"/>
+                                <exclude reference="ZkE-5n-gOp"/>
+                                <exclude reference="ph0-h9-cFU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="1QW-Cu-qhh"/>
+                                <include reference="ZkE-5n-gOp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="pkh-ON-WpD"/>
+                                <include reference="ph0-h9-cFU"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="i3w-Dm-Bua">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="XLj-GJ-CDL">
@@ -435,7 +458,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NOP-nE-i8z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2052.1739130434785" y="-352.23214285714283"/>
+            <point key="canvasLocation" x="2051.953125" y="-352.26939970717422"/>
         </scene>
         <!--Questions View Controller-->
         <scene sceneID="aed-ig-Jed">
