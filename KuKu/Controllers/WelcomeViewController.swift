@@ -22,8 +22,7 @@ class WelcomeViewController: UIViewController {
             style: .plain,
             target: nil,
             action: nil
-        )  
-        // Do any additional setup after loading the view.
+        )
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -37,27 +36,23 @@ class WelcomeViewController: UIViewController {
     }
     
     @IBAction func reviewQuestionsButtonPressed(_ sender: UIButton) {
-        quizBrain.createQuestions(times: "review")
+        quizBrain.createQuestions(times: K.QId.review)
         
         if quizBrain.quiz.count > 0 {
             self.performSegue(withIdentifier: K.reviewQuestionsSegue, sender: self)
         } else {
-            let alert: UIAlertController = UIAlertController(title: "アラート", message: "もんだいがありません", preferredStyle:.alert)
-            let ok = UIAlertAction(title: "OK", style: .default) { (action) in
+            let alert: UIAlertController = UIAlertController(title: K.JLabel.noRecordsAlert, message: K.JLabel.noRecordsMessage, preferredStyle:.alert)
+            let ok = UIAlertAction(title: K.JLabel.ok, style: .default) { (action) in
                 self.dismiss(animated: true, completion: nil)
             }
             alert.addAction(ok)
             present(alert, animated: true, completion: nil)
        }
-        
     }
     
     @IBAction func seeRecordsButtonPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: K.seeRecordsSegue, sender: self)
     }
-    
-    
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         if segue.identifier ==  K.selectQuestionSegue {
@@ -68,9 +63,6 @@ class WelcomeViewController: UIViewController {
         } else if segue.identifier == K.seeRecordsSegue {
             
         }
-        
     }
-    
-
 }
 

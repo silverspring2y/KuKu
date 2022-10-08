@@ -19,7 +19,7 @@ struct QuizBrain {
     let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent(K.recordsFile)
     
     mutating func createQuestions(times: String){
-        if times == "review" {
+        if times == K.QId.review {
             loadRecords()
             
             var wrongList:[Question]  = []
@@ -39,7 +39,7 @@ struct QuizBrain {
             }
             
             
-        } else if times == "らんだむ" {
+        } else if times == K.QId.random {
             for _ in 1...9 {
                 let leftNum = Int.random(in: 1...9)
                 let rightNum = Int.random(in: 1...9)

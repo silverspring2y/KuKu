@@ -37,7 +37,7 @@ class QuestionsListViewController: UIViewController {
             print(selectedTimes)
             quizBrain.createQuestions(times: selectedTimes)
         } else {
-            let selectedTimes = "1のだん"
+            let selectedTimes = K.QId.one
             quizBrain.createQuestions(times: selectedTimes)
         }
         
