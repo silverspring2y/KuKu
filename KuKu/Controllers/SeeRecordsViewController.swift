@@ -93,17 +93,22 @@ extension SeeRecordsViewController: UITableViewDataSource {
         return sortedArray.count
     }
     
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! RecordCell
-        //        let record = Array(recordsDict.keys)[indexPath.row]
         let question = sortedArray[indexPath.row].key.question
         let answer = sortedArray[indexPath.row].key.correctAnswer
-        
-        //       let wrongRate = recordsDict[record]?.wrongRate
         let wrongRate = sortedArray[indexPath.row].value.wrongRate
+        cell.rateLabel.textColor = UIColor(hex: K.ColorHex.navy)
+        cell.contentView.backgroundColor = UIColor(hex: K.ColorHex.white)
         cell.questionLabel.text = question
         cell.answerLabel.text = answer
         cell.rateLabel.text = String(format: "%.0f", 100*(1 - wrongRate))
+        
+        if wrongRate >= 0.3 {
+            cell.rateLabel.textColor = UIColor(hex: K.ColorHex.red)
+            cell.contentView.backgroundColor = UIColor(hex: K.ColorHex.red + "40")
+        }
         
         return cell
     }

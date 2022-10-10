@@ -31,11 +31,18 @@ struct K {
         static let wrong = "xmark"
     }
     
+    struct ColorHex {
+        static let navy = "#07689F"
+        static let white = "FAFAFA"
+        static let skyblue = "A2D5F2"
+        static let red = "FF7E67"
+    }
+    
+    
     struct JLabel {
         static let noRecordsAlert = "きろくがありません！"
         static let noRecordsMessage = "苦手な問題はなさそうです"
         static let ok = "OK"
         static let back = "戻る"
     }
-    
 }

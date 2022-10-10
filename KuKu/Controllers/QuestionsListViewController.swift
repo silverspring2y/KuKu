@@ -28,7 +28,47 @@ class QuestionsListViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.hidesBackButton = true
         
-        // Do any additional setup after loading the view.
+        oneTimesButton.layer.shadowOpacity = 0.4
+        oneTimesButton.layer.shadowRadius = 1
+        oneTimesButton.layer.shadowColor = UIColor.black.cgColor
+        oneTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        twoTimesButton.layer.shadowOpacity = 0.4
+        twoTimesButton.layer.shadowRadius = 1
+        twoTimesButton.layer.shadowColor = UIColor.black.cgColor
+        twoTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        threeTimesButton.layer.shadowOpacity = 0.4
+        threeTimesButton.layer.shadowRadius = 1
+        threeTimesButton.layer.shadowColor = UIColor.black.cgColor
+        threeTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        fourTimesButton.layer.shadowOpacity = 0.4
+        fourTimesButton.layer.shadowRadius = 1
+        fourTimesButton.layer.shadowColor = UIColor.black.cgColor
+        fourTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        fiveTimesButton.layer.shadowOpacity = 0.4
+        fiveTimesButton.layer.shadowRadius = 1
+        fiveTimesButton.layer.shadowColor = UIColor.black.cgColor
+        fiveTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        sixTimesButton.layer.shadowOpacity = 0.4
+        sixTimesButton.layer.shadowRadius = 1
+        sixTimesButton.layer.shadowColor = UIColor.black.cgColor
+        sixTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        sevenTimesButton.layer.shadowOpacity = 0.4
+        sevenTimesButton.layer.shadowRadius = 1
+        sevenTimesButton.layer.shadowColor = UIColor.black.cgColor
+        sevenTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        eightTimesButton.layer.shadowOpacity = 0.4
+        eightTimesButton.layer.shadowRadius = 1
+        eightTimesButton.layer.shadowColor = UIColor.black.cgColor
+        eightTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        nineTimesButton.layer.shadowOpacity = 0.4
+        nineTimesButton.layer.shadowRadius = 1
+        nineTimesButton.layer.shadowColor = UIColor.black.cgColor
+        nineTimesButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        randomButton.layer.shadowOpacity = 0.4
+        randomButton.layer.shadowRadius = 1
+        randomButton.layer.shadowColor = UIColor.black.cgColor
+        randomButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        
     }
     
     @IBAction func questionsSelected(_ sender: UIButton) {

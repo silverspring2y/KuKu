@@ -23,6 +23,21 @@ class WelcomeViewController: UIViewController {
             target: nil,
             action: nil
         )
+
+        selectQuestionsButton.layer.shadowOpacity = 0.5
+        selectQuestionsButton.layer.shadowRadius = 1
+        selectQuestionsButton.layer.shadowColor = UIColor.black.cgColor
+        selectQuestionsButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        reviewQuestionsButton.layer.shadowOpacity = 0.5
+        reviewQuestionsButton.layer.shadowRadius = 1
+        reviewQuestionsButton.layer.shadowColor = UIColor.black.cgColor
+        reviewQuestionsButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        seeRecordsButton.layer.shadowOpacity = 0.5
+        seeRecordsButton.layer.shadowRadius = 1
+        seeRecordsButton.layer.shadowColor = UIColor.black.cgColor
+        seeRecordsButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        
+        
     }
 
     override func viewWillAppear(_ animated: Bool) {
