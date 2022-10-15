@@ -100,6 +100,8 @@ class QuestionsViewController: UIViewController {
                 self.answerImageView.image = UIImage(systemName: K.Shapes.wrong)
                 self.answerImageView.tintColor = .systemRed
                 self.answerImageView.alpha = 0.8
+                self.answerLabel.text = q.correctAnswer
+                self.answerLabel.textColor = UIColor(hex: K.ColorHex.red)
                 
                 if recordsDict.keys.contains(q) {
                     self.recordsDict.updateValue(Records(nA: recordsDict[q]!.numAsked+1, nW: recordsDict[q]!.numWrong+1), forKey: q)
@@ -112,11 +114,11 @@ class QuestionsViewController: UIViewController {
     
             
             if quizBrain.questionNumber == 8 {
-                Timer.scheduledTimer(timeInterval: 1.2, target:self, selector: #selector(showResult), userInfo:nil, repeats: false)
+                Timer.scheduledTimer(timeInterval: 1.5, target:self, selector: #selector(showResult), userInfo:nil, repeats: false)
             } else {
                 quizBrain.nextQuesition()
                 userAnswer = ""
-                Timer.scheduledTimer(timeInterval: 0.7, target:self, selector: #selector(updateUI), userInfo:nil, repeats: false)
+                Timer.scheduledTimer(timeInterval: 1.5, target:self, selector: #selector(updateUI), userInfo:nil, repeats: false)
             }
         }
     }
@@ -133,6 +135,7 @@ class QuestionsViewController: UIViewController {
         answerImageView.alpha = 0
         questionLabel.text = quizBrain.getQuestionText()
         answerLabel.text = userAnswer
+        answerLabel.textColor = UIColor(hex: K.ColorHex.purple)
     }
 
     @objc func showResult() {

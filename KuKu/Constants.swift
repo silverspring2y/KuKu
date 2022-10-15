@@ -36,6 +36,7 @@ struct K {
         static let white = "FAFAFA"
         static let skyblue = "A2D5F2"
         static let red = "FF7E67"
+        static let purple = "646FD4"
     }
     
     
