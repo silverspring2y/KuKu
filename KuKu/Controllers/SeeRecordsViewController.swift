@@ -26,14 +26,14 @@ class SeeRecordsViewController: UIViewController {
     
 
     @IBAction func deleteButtonPressed(_ sender: UIButton) {
-        let alert = UIAlertController(title: "Delete All Items", message: "OK?", preferredStyle: .alert)
+        let alert = UIAlertController(title: K.JLabel.deleteRecordsAlert, message: K.JLabel.confirmDeletion, preferredStyle: .alert)
         
-        let ok = UIAlertAction(title: "OK", style: .default) { (action) in
+        let ok = UIAlertAction(title: K.JLabel.ok, style: .default) { (action) in
             self.recordsDict = [:]
             self.sortedArray = []
             self.saveRecords()
         }
-        let cancel = UIAlertAction(title: "Cancel", style: .default) { (action) in
+        let cancel = UIAlertAction(title: K.JLabel.back, style: .default) { (action) in
         }
         
         
