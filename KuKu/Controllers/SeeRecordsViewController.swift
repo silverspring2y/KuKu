@@ -99,6 +99,7 @@ extension SeeRecordsViewController: UITableViewDataSource {
         let question = sortedArray[indexPath.row].key.question
         let answer = sortedArray[indexPath.row].key.correctAnswer
         let wrongRate = sortedArray[indexPath.row].value.wrongRate
+   
         cell.rateLabel.textColor = UIColor(hex: K.ColorHex.navy)
         cell.contentView.backgroundColor = UIColor(hex: K.ColorHex.white)
         cell.questionLabel.text = question
@@ -107,7 +108,8 @@ extension SeeRecordsViewController: UITableViewDataSource {
         
         if wrongRate >= 0.3 {
             cell.rateLabel.textColor = UIColor(hex: K.ColorHex.red)
-            cell.contentView.backgroundColor = UIColor(hex: K.ColorHex.red + "40")
+            //cell.contentView.backgroundColor = UIColor(hex: K.ColorHex.red + "40")
+            //cell.backgroundColor = UIColor(hex: K.ColorHex.red + "40")
         }
         
         return cell

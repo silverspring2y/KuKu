@@ -389,8 +389,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eyJ-S5-GgZ">
-                                <rect key="frame" x="20" y="74" width="984" height="1272"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eyJ-S5-GgZ">
+                                <rect key="frame" x="0.0" y="74" width="1024" height="1272"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="sectionIndexColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="sectionIndexBackgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -400,9 +400,9 @@
                         <viewLayoutGuide key="safeArea" id="rxl-oF-Swn"/>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="rxl-oF-Swn" firstAttribute="trailing" secondItem="eyJ-S5-GgZ" secondAttribute="trailing" constant="20" id="6FE-Z3-H5e"/>
+                            <constraint firstItem="rxl-oF-Swn" firstAttribute="trailing" secondItem="eyJ-S5-GgZ" secondAttribute="trailing" id="6FE-Z3-H5e"/>
                             <constraint firstItem="eyJ-S5-GgZ" firstAttribute="top" secondItem="rxl-oF-Swn" secondAttribute="top" id="8fS-Et-3tt"/>
-                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="leading" secondItem="rxl-oF-Swn" secondAttribute="leading" constant="20" id="ZkE-5n-gOp"/>
+                            <constraint firstItem="eyJ-S5-GgZ" firstAttribute="leading" secondItem="rxl-oF-Swn" secondAttribute="leading" id="ZkE-5n-gOp"/>
                             <constraint firstItem="eyJ-S5-GgZ" firstAttribute="centerX" secondItem="Vkz-tj-v1H" secondAttribute="centerX" id="a52-3z-kE6"/>
                             <constraint firstItem="rxl-oF-Swn" firstAttribute="bottom" secondItem="eyJ-S5-GgZ" secondAttribute="bottom" id="y92-hY-Cf8"/>
                         </constraints>
