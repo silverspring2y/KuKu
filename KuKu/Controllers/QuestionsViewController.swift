@@ -101,7 +101,7 @@ class QuestionsViewController: UIViewController {
                 self.answerImageView.tintColor = .systemRed
                 self.answerImageView.alpha = 0.8
                 
-                self.answerLabel.fadeTransition(0.5)
+                self.answerLabel.fadeTransition(0.6)
                 self.answerLabel.text = q.correctAnswer
 
                 self.answerLabel.textColor = UIColor(hex: K.ColorHex.red)
