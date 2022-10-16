@@ -44,8 +44,8 @@ struct K {
         static let noRecordsAlert = "きろくがありません！"
         static let noRecordsMessage = "苦手な問題が見つかりません"
         static let ok = "OK"
-        static let back = "戻る"
-        static let deleteRecordsAlert = "学習記録をリセットします"
-        static let confirmDeletion = "本当に全て削除しますか？"
+        static let back = "もどる"
+        static let deleteRecordsAlert = "きろくをリセットします"
+        static let confirmDeletion = "全ての学習記録を削除しますか？"
     }
 }
