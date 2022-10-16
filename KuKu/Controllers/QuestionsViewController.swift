@@ -100,7 +100,10 @@ class QuestionsViewController: UIViewController {
                 self.answerImageView.image = UIImage(systemName: K.Shapes.wrong)
                 self.answerImageView.tintColor = .systemRed
                 self.answerImageView.alpha = 0.8
+                
+                self.answerLabel.fadeTransition(0.5)
                 self.answerLabel.text = q.correctAnswer
+
                 self.answerLabel.textColor = UIColor(hex: K.ColorHex.red)
                 
                 if recordsDict.keys.contains(q) {

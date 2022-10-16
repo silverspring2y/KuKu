@@ -14,6 +14,7 @@
 		2039A39928AA2D9A004EEED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2039A39828AA2D9A004EEED9 /* Assets.xcassets */; };
 		2039A39C28AA2D9A004EEED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2039A39A28AA2D9A004EEED9 /* LaunchScreen.storyboard */; };
 		2039A3A428AA3266004EEED9 /* QuestionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039A3A328AA3266004EEED9 /* QuestionsListViewController.swift */; };
+		204319B528FBBF5E0056E6F6 /* AnimateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204319B428FBBF5E0056E6F6 /* AnimateLabel.swift */; };
 		20876AEB28F3B86000060C8D /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20876AEA28F3B86000060C8D /* UIColorHex.swift */; };
 		20A3B32228B1B25700442F19 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A3B32128B1B25700442F19 /* Question.swift */; };
 		20A3B32428B1C29B00442F19 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A3B32328B1C29B00442F19 /* QuizBrain.swift */; };
@@ -35,6 +36,7 @@
 		2039A39B28AA2D9A004EEED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2039A39D28AA2D9A004EEED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2039A3A328AA3266004EEED9 /* QuestionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsListViewController.swift; sourceTree = "<group>"; };
+		204319B428FBBF5E0056E6F6 /* AnimateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateLabel.swift; sourceTree = "<group>"; };
 		20876AEA28F3B86000060C8D /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
 		20A3B32128B1B25700442F19 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		20A3B32328B1C29B00442F19 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				2039A39A28AA2D9A004EEED9 /* LaunchScreen.storyboard */,
 				2039A39D28AA2D9A004EEED9 /* Info.plist */,
 				20876AEA28F3B86000060C8D /* UIColorHex.swift */,
+				204319B428FBBF5E0056E6F6 /* AnimateLabel.swift */,
 			);
 			path = KuKu;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204319B528FBBF5E0056E6F6 /* AnimateLabel.swift in Sources */,
 				2039A3A428AA3266004EEED9 /* QuestionsListViewController.swift in Sources */,
 				2039A39428AA2D98004EEED9 /* WelcomeViewController.swift in Sources */,
 				20A3B33D28EDBCE700442F19 /* QuestionsViewController.swift in Sources */,
