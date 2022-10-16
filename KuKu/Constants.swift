@@ -41,8 +41,8 @@ struct K {
     
     
     struct JLabel {
-        static let noRecordsAlert = "きろくがありません！"
-        static let noRecordsMessage = "苦手な問題が見つかりません"
+        static let noRecordsAlert = "にがてはありません！"
+        static let noRecordsMessage = "全ての問題が正答率80%以上です"
         static let ok = "OK"
         static let back = "もどる"
         static let deleteRecordsAlert = "きろくをリセットします"

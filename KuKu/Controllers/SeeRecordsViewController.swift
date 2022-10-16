@@ -106,7 +106,7 @@ extension SeeRecordsViewController: UITableViewDataSource {
         cell.answerLabel.text = answer
         cell.rateLabel.text = String(format: "%.0f", 100*(1 - wrongRate))
         
-        if wrongRate >= 0.3 {
+        if wrongRate > 0.2 {
             cell.rateLabel.textColor = UIColor(hex: K.ColorHex.red)
             //cell.contentView.backgroundColor = UIColor(hex: K.ColorHex.red + "40")
             //cell.backgroundColor = UIColor(hex: K.ColorHex.red + "40")

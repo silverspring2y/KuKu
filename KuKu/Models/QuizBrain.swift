@@ -26,7 +26,7 @@ struct QuizBrain {
             
             for q in recordsDict.keys {
                 if let w = recordsDict[q]?.wrongRate  {
-                    if w > 0 {
+                    if w > 0.2 {
                         wrongList.append(q)
                     }
                 }
