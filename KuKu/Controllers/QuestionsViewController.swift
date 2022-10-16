@@ -101,7 +101,7 @@ class QuestionsViewController: UIViewController {
                 self.answerImageView.tintColor = .systemRed
                 self.answerImageView.alpha = 0.8
                 
-                self.answerLabel.fadeTransition(0.6)
+                self.answerLabel.fadeTransition(0.9)
                 self.answerLabel.text = q.correctAnswer
 
                 self.answerLabel.textColor = UIColor(hex: K.ColorHex.red)
@@ -117,7 +117,7 @@ class QuestionsViewController: UIViewController {
     
             
             if quizBrain.questionNumber == 8 {
-                Timer.scheduledTimer(timeInterval: 1.5, target:self, selector: #selector(showResult), userInfo:nil, repeats: false)
+                Timer.scheduledTimer(timeInterval: 1.3, target:self, selector: #selector(showResult), userInfo:nil, repeats: false)
             } else {
                 quizBrain.nextQuesition()
                 userAnswer = ""

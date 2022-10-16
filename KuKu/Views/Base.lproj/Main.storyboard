@@ -129,10 +129,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="9yg-Fb-zh7">
-                                <rect key="frame" x="237" y="109" width="550" height="1017"/>
+                                <rect key="frame" x="237" y="204" width="550" height="902"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfD-o0-u1l">
-                                        <rect key="frame" x="0.0" y="0.0" width="550" height="92"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="550" height="80.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="1のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -146,7 +146,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBj-8E-I8Y">
-                                        <rect key="frame" x="0.0" y="103" width="550" height="91.5"/>
+                                        <rect key="frame" x="0.0" y="91.5" width="550" height="80"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="2のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -160,7 +160,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKd-Am-QD5">
-                                        <rect key="frame" x="0.0" y="205.5" width="550" height="92"/>
+                                        <rect key="frame" x="0.0" y="182.5" width="550" height="80.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="3のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -174,7 +174,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPY-rg-A09">
-                                        <rect key="frame" x="0.0" y="308.5" width="550" height="91.5"/>
+                                        <rect key="frame" x="0.0" y="274" width="550" height="80"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="4のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -188,7 +188,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ng-I0-wWp">
-                                        <rect key="frame" x="0.0" y="411" width="550" height="92"/>
+                                        <rect key="frame" x="0.0" y="365" width="550" height="80.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="5のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -202,7 +202,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQg-f1-uUc">
-                                        <rect key="frame" x="0.0" y="514" width="550" height="92"/>
+                                        <rect key="frame" x="0.0" y="456.5" width="550" height="80.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="6のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -216,7 +216,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7E-BU-j7g">
-                                        <rect key="frame" x="0.0" y="617" width="550" height="91.5"/>
+                                        <rect key="frame" x="0.0" y="548" width="550" height="80"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="7のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -230,7 +230,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCd-An-LPX">
-                                        <rect key="frame" x="0.0" y="719.5" width="550" height="92"/>
+                                        <rect key="frame" x="0.0" y="639" width="550" height="80.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="8のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -244,7 +244,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vry-9a-aO9">
-                                        <rect key="frame" x="0.0" y="822.5" width="550" height="91.5"/>
+                                        <rect key="frame" x="0.0" y="730.5" width="550" height="80"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="9のだん" cornerStyle="large">
                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
@@ -258,7 +258,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UO1-wp-dYi">
-                                        <rect key="frame" x="0.0" y="925" width="550" height="92"/>
+                                        <rect key="frame" x="0.0" y="821.5" width="550" height="80.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="らんだむ" cornerStyle="large">
                                             <backgroundConfiguration key="background">
@@ -318,12 +318,12 @@
                         <viewLayoutGuide key="safeArea" id="L1F-wq-DRF"/>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9yg-Fb-zh7" firstAttribute="top" secondItem="L1F-wq-DRF" secondAttribute="top" constant="35" id="2Jr-Gy-Mw6"/>
+                            <constraint firstItem="9yg-Fb-zh7" firstAttribute="top" secondItem="L1F-wq-DRF" secondAttribute="top" constant="130" id="2Jr-Gy-Mw6"/>
                             <constraint firstItem="9yg-Fb-zh7" firstAttribute="top" secondItem="L1F-wq-DRF" secondAttribute="top" constant="45" id="7ut-iL-G6w"/>
                             <constraint firstItem="L1F-wq-DRF" firstAttribute="bottom" secondItem="a6q-Wj-dBW" secondAttribute="bottom" constant="20" id="OPY-St-wAa"/>
                             <constraint firstItem="L1F-wq-DRF" firstAttribute="bottom" secondItem="9yg-Fb-zh7" secondAttribute="bottom" constant="100" id="RcN-vh-gId"/>
                             <constraint firstItem="9yg-Fb-zh7" firstAttribute="centerX" secondItem="cAN-R8-DcO" secondAttribute="centerX" id="Y5T-ZW-Txg"/>
-                            <constraint firstItem="L1F-wq-DRF" firstAttribute="bottom" secondItem="9yg-Fb-zh7" secondAttribute="bottom" constant="220" id="a5m-ag-Brc"/>
+                            <constraint firstItem="L1F-wq-DRF" firstAttribute="bottom" secondItem="9yg-Fb-zh7" secondAttribute="bottom" constant="240" id="a5m-ag-Brc"/>
                             <constraint firstItem="a6q-Wj-dBW" firstAttribute="leading" secondItem="L1F-wq-DRF" secondAttribute="leading" constant="80" id="bT5-fD-rdT"/>
                             <constraint firstItem="a6q-Wj-dBW" firstAttribute="leading" secondItem="L1F-wq-DRF" secondAttribute="leading" constant="50" id="lCE-FS-06v"/>
                             <constraint firstItem="L1F-wq-DRF" firstAttribute="bottom" secondItem="a6q-Wj-dBW" secondAttribute="bottom" constant="130" id="zpx-zc-I9X"/>
