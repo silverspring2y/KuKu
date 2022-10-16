@@ -79,6 +79,8 @@ class QuestionsViewController: UIViewController {
     
     
     @IBAction func okButtonPressed(_ sender: UIButton) {
+        okButton.isEnabled =  false
+        
         if showResultCalled == false {
             let q = quizBrain.getQuestion()
             let userGotItRight = quizBrain.checkAnswer(userAnswer)
@@ -123,6 +125,10 @@ class QuestionsViewController: UIViewController {
                 userAnswer = ""
                 Timer.scheduledTimer(timeInterval: 1.5, target:self, selector: #selector(updateUI), userInfo:nil, repeats: false)
             }
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5){
+            self.okButton.isEnabled = true
         }
     }
     
